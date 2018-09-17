@@ -1,0 +1,341 @@
+\documentclass{article}
+\usepackage[margin=1.0in]{geometry} %change all margins to 1.0 inches (except the title, but moves up)
+%\documentclass[12pt]{article}
+%\usepackage[margin=.8in]{geometry} 
+%\usepackage{authblk} %package for blocking authors, followed by blocking affiliation
+\usepackage{url}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{ulem} % when using ulem package, must change \emph to \it for italics.
+\usepackage{hyperref} %allow for hyper links
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\usepackage[T1]{fontenc} %add encoding for small caps
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+\usepackage{titling} %title margin editing
+\setlength{\droptitle}{-.75in} %size of top margin
+\usepackage{setspace}
+\usepackage{changepage} %changes margins using adjustwidth
+\usepackage{tabularx}
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage[super]{nth}
+\usepackage{paralist} %to use compact item stuff
+\makeatletter
+\newcommand\tabfill[1]{%
+\dimen@\linewidth%
+\advance\dimen@\@totalleftmargin%
+\advance\dimen@-\dimen\@curtab%
+\parbox[t]\dimen@{\raggedright #1\ifhmode\strut\fi}%
+}
+%%%%below changes footer to special footer with name and page number
+\usepackage{fancyhdr}
+\pagestyle{fancy} %can be {fancy}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+%%%%above changes footer to special footer with name and page number
+\begin{document}
+%\date{today}
+%\maketitle
+
+\begingroup  
+  \centering
+  \begin{spacing}{1.5} %begins 1.5 spacing
+  \textsc{\textbf{\LARGE{Introduction to Justice Studies}}} %textsc is small caps, textbf is bold font, huge is largest font possible
+  \end{spacing}
+  \begin{spacing}{1.0} %begins single-spacing
+  \centerline{\large Sociology 105}
+  \centerline{\large Fall 2018}
+  %\centerline{\normalsize bvann@uci.edu \textbullet \space (714) 398-5815 \textbullet \space \href{http://www.burrelvannjr.com}{burrelvannjr.com}}
+  \end{spacing}
+\endgroup
+\raggedright %left-justifies text AKA does not justify all of text
+
+
+%\begingroup %date group start
+  %за\centerline{} %line space
+  %\centerline{} %line space
+   %\centerline{( {\it{\today}} )} %today's date, italicized with parentheses
+%\endgroup %end date group
+
+%\begin{singlespace}
+Time: \textbf{Online} \hfill  \hfill Instructor: \textbf{Burrel Vann Jr} \\
+Room: \textbf{Online} \hfill  \hfill Email: \textbf{\href{mailto:bvann@csusm.edu?subject=SOCI\%20105}{bvann@csusm.edu}} \\
+Website: \textbf{\href{https://cc.csusm.edu/course/view.php?id=16750}{SOCI 105}} \hfill  \hfill Office: \textbf{Online} \\ %x3103
+  \hfill  \hfill Office Hours: \textbf{Online} \\
+%\end{singlespace}
+
+
+%\begin{singlespace}
+\section*{Course Description}
+This is an introduction to the interdisciplinary field of Justice Studies. This course explores economic, social, and criminal justice issues by means of sociological, philosophical, and legal perspectives and methodologies. Students will critically assess the obstacles and opportunities central to the pursuit of justice in the United States. In this class, we will critically interrogate the meaning of ``justice'' in an attempt to answer the question: ``justice for whom?'' To do so, we will discuss the institutionalization of injustice through slavery and Jim Crow segregation, and track the perpetuation of injustice through contemporary mass incarceration. Importantly, this course focuses on efforts to combat various systems of (in)justice through social movement mobilization across history, such as the abolitionist, civil rights, prison abolition, and black lives matter/anti-police-violence movements.
+%%\end{singlespace}
+
+%\begin{singlespace}
+\section*{Course Objectives}
+\begin{itemize}
+\item To critically assess meanings of ``justice'' in contemporary society.\vspace*{-.75em}
+\item To understand how power dynamics shape the legitimation of some views of justice over others.\vspace*{-.75em}
+\item To envision ways of addressing social problems related to (in)justice. %\vspace*{-.75em}
+\end{itemize}
+
+
+\textbf{CSUSM Program Student Learning Outcomes (SLOs)} 
+\begin{enumerate}
+\item Analyze and interpret experiences using a sociological and/or criminology and social justice issues, especially as they relate to race, ethnicity, class, gender, age, sexualities, religion and/or nationality.(PSLO \#1) \vspace*{-.75em}
+\item Assess competing theoretical approaches to criminology and social justice issues of publics with differing and multiple interests; specify structural or institutional sources of these criminology and social justice issues; and propose and assess policies, interventions and/or modes of advocacy that will enact positive change. (PSLO \#2) \vspace*{-.75em}
+\item Locate, analyze, assess, and communicate about sociology and criminology andsocial justice scholarship. (PSLO \#3) \vspace*{-.75em}
+\item Articulate the ethical and social justice implications of criminology and justice studies. (PSLO \#5)
+\end{enumerate}
+
+
+
+\section*{Course Materials}
+\subsection*{Required}
+\textbf{Textbooks} \newline
+Martin Luther King Jr. 2010. \textit{Where Do We Go from Here: Chaos or Community?}.  Boston, MA: Beacon Press. \newline
+
+Michelle Alexander. 2012. \textit{The New Jim Crow: Mass Incarceration in the Age of Colorblindness}.  New York, NY: The Free Press. \newline
+
+Angela Y. Davis. 2003. \textit{Are Prisons Obsolete?}.  New York, NY: Seven Stories Press. \newline
+%\footnote{Any earlier or subsequent edition of this book will work for this class.} 
+
+\section*{Course Requirements}
+Students are required to introduce themselves to their classmates, submit blog posts, participate in online discussions via responses to blog posts, and complete three response papers.\newline
+
+
+\textbf{Online Introductions (10 points):} \newline
+Because this is an online class, students are required to introduce themselves to their classmates, during the first week of classes, using the discussion forum. This online introduction should include your name, major, academic interests, reasons for enrolling in ``justice studies,'' as well as non-academic interests (e.g. hiking, concerts, volunteering, fostering puppies, etc). This introduction is due by 12pm on Friday, August 31, 2018.\newline
+
+\textbf{Weekly Reading Blog Posts (120 Points, 10 points each)} \newline
+To demonstrate your comprehension of the weekly readings and your ability to apply their concepts to your lived experience, students are required to post twelve (12) blog posts. These blog posts are not merely a summary of the weekly reading, but rather, serve to help students to think through the concepts presented in the readings and try to apply them to their own lives (or the lives of someone they know). Blog posts should be short blurbs: 1--2 sentences describing an interesting/thought-provoking/alarming concept presented in the readings, followed by 3--8 sentences describing how this relates to your own life (along with ideas about how to remedy the specific social problem that arose from the concept). These blog posts are due on Fridays (during the week they're due) by 12:00pm. \newline
+
+\textbf{Participation/Response to Classmates' Blogpost (60 points, 5 points each response):} \newline
+Your participation grade is dependent upon your participation in online discussions, which requires that you respond to at least one (1) weekly-reading blog posted by one of your classmates, for a total of 12 responses. These responses are due on Sundays (on weeks they're due) by 12:00pm. \newline
+
+\textbf{Response Papers (60 points, 30 points each)} \newline
+At the completion of each book, there will be a reading response essay. Each essay will ask specific questions about the theories and concepts discussed in each book. Further instructions and expectations will be discussed. \newline
+
+\textbf{Policy on Late Work} \newline
+All work is considered late after the due date and time has passed. Late work will only be accepted at my discretion, and will be granted a maximum of half credit. In extreme emergencies, written documentation will be required before late work (especially response papers) will be accepted. \newline
+
+\textbf{Extra Credit} \newline
+Students may be given the opportunity to complete one blog post for extra credit, worth a maximum of 10 points. If granted, extra credit will not be accepted late. 
+
+\section*{Grading Breakdown}
+Final grades will be based on the online introduction, blog posts, participation via responses to classmates' blogs, and three response papers for a total of 250 points. A +/- grading system \textbf{will not} be used.
+
+\begin{tabbing}
+\quad \quad \quad \= Online Introduction \quad \quad  \quad \quad \quad \= \tabfill{10}\\
+\> Participation/Blog Responses \> \tabfill{60 (12 responses, 5 points each)}\\
+\> Weekly Reading Blog Posts \> \tabfill{120 (12 blog posts, 10 points each)}\\
+\> Response Papers \> \tabfill{60 (2 papers, 30 points each)}\\
+\> Total  \> \tabfill{250}
+\end{tabbing}
+
+\textbf{Letter Grades}
+\vspace*{-.5em}
+\begin{tabbing}
+\quad \quad \quad \= A = 90\% and above \\
+\> B = 80\% and above \\
+\> C = 70\% and above \\
+\> D = 60\% and above \\
+\> F = Below 60\% \\
+\end{tabbing}
+
+\section*{Classroom Conduct}
+Please be courteous to your classmates and me by remaining engaged and respectful. Students are expected to conduct themselves in a way that does not interfere with the educational experience of others. Additionally, turn cell phones and other electronic devices on silent during class time. Laptops may be used for taking notes or running analyses while in class.
+
+
+\section*{Academic Honesty}
+The California State University, San Marcos policy on academic honesty is explained in {\color{blue}\href{https://www.csusm.edu/policies/active/documents/academic_honesty_policy.html}{Academic Honesty Policy}}. All work you turn in, including homework assignments, exams, and quizzes must be your own. At the discretion of the instructor, any student found to have engaged in academic dishonesty (including but not limited to plagiarism and/or cheating) will be subject to disciplinary action at the course-level (including but not limited to oral reprimand; ``F'' or ``0'' on the assignment; grade reduction on assignment or course; or ``F'' in the course) or university-level (including but not limited to a report to the student(s) involved, to the department chair, and to the Dean of Students office, Student Conduct, the alleged incident of academic dishonesty, including relevant documentation, actions taken by the instructor including grade sanction, and recommendations for additional action that he/she deems appropriate). 
+
+\section*{Students with Special Needs}
+Please inform the instructor during the first week of classes about any disability or special needs that you may have that may require specific arrangements related to attending class sessions, carrying out class assignments, or writing papers or examinations. According to California State University policy, students with disabilities must document their disabilities at the Disability Support Services (DSS) Office in order to be accommodated in their courses. Additional information can be found at the {\color{blue}\href{https://www.csusm.edu/dss/index.html}{DSS website}}, by calling 760-750-4905, or by email at {\color{blue}\href{mailto:dss@csusm.edu}{dss@csusm.edu}}.
+
+%\section*{Emergency Preparedness}
+%Information about CSUF's emergency preparedness policy can be found at {\color{blue}\href{http://prepare.fullerton.edu/}{Campus Emergency Preparedness}}.
+
+\section*{Changes to Material}
+I reserve the right to make changes to the syllabus, including the course outline, at any time, based on the pace of the class.
+
+
+
+\newpage
+
+
+\section*{Course Schedule}
+
+\subsubsection*{1 -- \textit{Introduction to Course} (8/27)}
+\begin{itemize}
+\item \textbf{Due}: 
+\newline 8/31: Online Introductions
+\end{itemize}
+
+\subsubsection*{2 -- \textit{Slavery, Abolitionism, and Civil Rights Antecedents} (9/3)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline \textit{Letter from Birmingham Jail} -- King 
+\newline \textit{Packs of Negro Dogs} -- Spruill
+\item \textbf{Due}: 
+\newline 9/7: Blog Post 1 
+\newline 9/9: Reaction to Classmate's Blog Post
+\end{itemize}
+
+\vspace{3pt}
+
+%\subsubsection*{3 - \textbf{NO CLASS}: \textit{Online Exercises} (9/11 \& 9/13)\newline}
+\subsubsection*{3 -- \textit{Civil Rights I} (9/10)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 1 in \textit{Where Do We Go from Here?} -- King 
+\newline Chapter 2 in \textit{Where Do We Go from Here?} -- King 
+\item \textbf{Due}: 
+\newline 9/14: Blog Post 2 
+\newline 9/16: Reaction to Classmate's Blog Post
+\end{itemize}
+
+\vspace{3pt}
+
+\subsubsection*{4 -- \textit{Civil Rights II} (9/17)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 3 in \textit{Where Do We Go from Here?} -- King 
+\newline Chapter 4 in \textit{Where Do We Go from Here?} -- King 
+\item \textbf{Due}: 
+\newline 9/21: Blog Post 3 
+\newline 9/23: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{5 -- \textit{Civil Rights III} (9/24)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 5 in \textit{Where Do We Go from Here?} -- King 
+\newline Chapter 6 in \textit{Where Do We Go from Here?} -- King 
+\item \textbf{Due}: 
+\newline 9/28: Blog Post 4
+\newline 9/30: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+
+\subsubsection*{6 -- \textit{New Forms of Slavery and Injustice I} (10/1)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 1 in \textit{The New Jim Crow} -- Alexander 
+\item \textbf{Due}: 
+\newline 10/5: Blog Post 5
+\newline 10/7: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{7 -- \textit{New Forms of Slavery and Injustice II} (10/8)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 2 in \textit{The New Jim Crow} -- Alexander 
+\item \textbf{Due}: 
+\newline 10/12: Blog Post 6
+\newline 10/14: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{8 -- \textit{New Forms of Slavery and Injustice III} (10/15)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 3 in \textit{The New Jim Crow} -- Alexander 
+\item \textbf{Due}: 
+\newline 10/19: Blog Post 7
+\newline 10/21: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{9 -- \textit{New Forms of Slavery and Injustice IV} (10/22)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 4 in \textit{The New Jim Crow} -- Alexander 
+\item \textbf{Due}: 
+\newline 10/26: Blog Post 8
+\newline 10/28: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{10 -- \textit{New Forms of Slavery and Injustice V} (10/29)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 5 in \textit{The New Jim Crow} -- Alexander 
+\item \textbf{Due}: 
+\newline 11/2: Blog Post 9
+\newline 11/4: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{11 -- \textit{New Forms of Slavery and Injustice VI} (11/5)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 6 in \textit{The New Jim Crow} -- Alexander 
+\item \textbf{Due}: 
+\newline 11/9: Blog Post 10
+\newline 11/11: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{12 -- \textit{From Injustice to Prison Abolition? I} (11/12)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 1 in \textit{Are Prisons Obsolete?} -- Davis 
+\newline Chapter 2 in \textit{Are Prisons Obsolete?} -- Davis
+\item \textbf{Due}: 
+\newline 11/16: \textit{The New Jim Crow} Response Paper
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{13 -- \textbf{NO CLASS}: Thanksgiving Break (11/19) \newline}
+\vspace{3pt}
+
+
+\subsubsection*{14 -- \textit{From Injustice to Prison Abolition? II} (11/26)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 5 in \textit{Are Prisons Obsolete?} -- Davis 
+\item \textbf{Due}: 
+\newline 11/30: Blog Post 11
+\newline 12/2: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{15 -- \textit{From Injustice to Prison Abolition? III} (12/3)}
+\begin{itemize}
+\item \textbf{Readings(s)}: 
+\newline Chapter 6 in \textit{Are Prisons Obsolete?} -- Davis 
+\item \textbf{Due}: 
+\newline 12/7: Blog Post 12
+\newline 12/9: Reaction to Classmate's Blog Post
+\end{itemize}
+\vspace{3pt}
+
+\subsubsection*{Finals Week (12/11)}
+\begin{itemize}
+\item \textbf{Due}: 
+\newline 12/14: \textit{Are Prisons Obsolete?} Response Paper
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
